@@ -6,9 +6,15 @@
 
     <%= stylesheet_link_tag    'application', media: 'all' %>
     <%= javascript_include_tag 'application' %>
+    <link href="https://afeld.github.io/emoji-css/emoji.css" rel="stylesheet">
   </head>
 
   <body>
+    <nav>
+      <div class='hero-text'>
+        <i class="em em-fire"></i> Hotcoin <i class="em em-fire"></i>
+      </div>
+    </nav>
     <%= yield %>
   </body>
 </html>

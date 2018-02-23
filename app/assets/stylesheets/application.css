@@ -13,3 +13,15 @@
  *= require_tree .
  *= require_self
  */
+
+ .hero{
+   height: 290px;
+    width: 100%;
+ }
+.hero-text {
+    display: flex;
+    justify-content: center;
+    font-size: x-large;
+    color: red;
+    background: beige;
+}
