@@ -10,19 +10,29 @@
   </head>
 
   <body>
-    <nav>
+    <nav class='nav'>
       <div class='hero-text'>
         <i class="em em-fire"></i> 
-        <div class='title'> Hotcoin </div>
+        <i class="em em-fire"></i> 
+        <i class="em em-fire"></i> 
+        <div class='title'> Hot Coin </div>
+        <i class="em em-fire"></i>
+        <i class="em em-fire"></i>
         <i class="em em-fire"></i>
       </div>
     </nav>
   <div class='body-wrap'>
     <div class="coin_search">
       <%= form_tag("/", method: "get", placeholder: 'XRP') do %>
-        <%= label_tag(:q, "Search hotness:") %>
+      <div class='stack'>
+        <%= label_tag(:q, "Coin Hotness") %>
+      </div>
+      <div class='search_box'>      
         <%= text_field_tag(:q) %>
+      </div>
+      <div class='stack'>            
         <%= submit_tag("Search Twitter") %>
+      </div>
       <% end %>
     </div>
       <div class='labels'>
