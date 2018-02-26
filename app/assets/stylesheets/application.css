@@ -13,3 +13,100 @@
  *= require_tree .
  *= require_self
  */
+@keyframes spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+.nav{
+  background: black;
+}
+.body-wrap{
+  background: black;
+}
+.hero{
+   height: 290px;
+    width: 100%;
+}
+.hero-text {
+    display: flex;
+    justify-content: space-between;
+    font-size: x-large;
+    color: red;
+}
+.stack{
+  margin-left: 13%;
+}
+.coin_search{
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+.circles {
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.labels {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+}
+.BTC{
+  padding-left: 100px;
+}
+.ETH{
+  padding-right: 100px;
+}
+.first-circle {
+  background-image: -moz-radial-gradient(45px 45px 45deg, circle cover, rgb(0, 166, 255) 0%, rgb(0, 255, 72) 100%, red 95%);
+  background-image: -webkit-radial-gradient(45px 45px, circle cover, rgb(0, 166, 255), rgb(0, 255, 72));
+  background-image: radial-gradient(45px 45px 45deg, circle cover, rgb(0, 166, 255) 0%, rgb(0, 255, 72) 100%, red 95%);
+  
+  animation-name: spin; 
+  animation-duration: 3s; /* 3 seconds */
+  animation-iteration-count: infinite; 
+  animation-timing-function: linear;
+  
+  border-radius: 50%;
+  width: 200px;
+  height: 200px; 
+  /* width and height can be anything, as long as they're equal */
+}
+.second-circle {
+  background-image: -moz-radial-gradient(45px 45px 45deg, circle cover, rgb(0, 166, 255) 0%, rgb(0, 255, 72) 100%, red 95%);
+  background-image: -webkit-radial-gradient(45px 45px, circle cover, rgb(0, 166, 255), rgb(0, 255, 72));
+  background-image: radial-gradient(45px 45px 45deg, circle cover, rgb(0, 166, 255) 0%, rgb(0, 255, 72) 100%, red 95%);
+  
+  animation-name: spin; 
+  animation-duration: 3s; /* 3 seconds */
+  animation-iteration-count: infinite; 
+  animation-timing-function: linear;
+
+  border-radius: 50%;
+  width: 200px;
+  height: 200px; 
+  /* width and height can be anything, as long as they're equal */
+}
+.third-circle {
+  background-image: -moz-radial-gradient(45px 45px 45deg, circle cover, rgb(0, 166, 255) 0%, rgb(0, 255, 72) 100%, red 95%);
+  background-image: -webkit-radial-gradient(45px 45px, circle cover, rgb(0, 166, 255), rgb(0, 255, 72));
+  background-image: radial-gradient(45px 45px 45deg, circle cover, rgb(0, 166, 255) 0%, rgb(0, 255, 72) 100%, red 95%);
+  
+  animation-name: spin; 
+  animation-duration: 3s; /* 3 seconds */
+  animation-iteration-count: infinite; 
+  animation-timing-function: linear;
+
+  border-radius: 50%;
+  width: 200px;
+  height: 200px; 
+  /* width and height can be anything, as long as they're equal */
+}
+.em{
+  padding: 50px;
+}
+.title{
+    padding-top: 50px;
+    font-size: -webkit-xxx-large;
+}
