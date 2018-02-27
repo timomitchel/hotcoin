@@ -6,8 +6,8 @@ feature 'homepage' do
        
       visit root_path
 
-      expect(page).to have_content 'Hotcoin'
-      expect(page).to have_content 'Search Coins'
+      expect(page).to have_content 'Hot Coin'
+      expect(page).to have_button 'Search Twitter'
       expect(page).to have_content 'BTC'
       expect(page).to have_content 'ETH'
       expect(page).to have_content 'XRP'
